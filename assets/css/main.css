@@ -8,7 +8,7 @@
 }
 @font-face {
     font-family: Cairo;
-    src: url(/assets/fonts/Cairo-VariableFont_slnt\,wght.ttf);
+    src: url(../fonts/Cairo-VariableFont_slnt\,wght.ttf);
 }
 ::selection{
     color: white;
@@ -140,7 +140,7 @@ transform: translateX(-40px);
     position: relative;
     width: 100%;
     height: 100vh;
-    background-image: url(./assets/img/3.jpg);
+    background-image: url(../img/3.jpg);
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -184,7 +184,7 @@ transform: translateX(-40px);
     cursor: pointer;
 }
 .bar-icon img{
-    width: 32px;
+    width: 30px;
     height: 30px;
 
 }
@@ -246,9 +246,11 @@ transform: translateX(-40px);
     position: relative;
     color: var(--subColor);
     text-align: center;
+    font-weight: 600;
 }
 .about-title{
     color: var(--prColor);
+    font-weight: 600;
 }
 .title::before{
     content: '';
@@ -320,7 +322,7 @@ transform: translateX(-40px);
 /* end services */
 /* start our team */
 #our-team{
-    background-image: url(./assets/img/4.jpg);
+    background-image: url(../img/4.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -355,8 +357,8 @@ transform: translateX(-40px);
 
 }
 .head-card img{
-    width: 160px;
-    height: 160px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     object-fit: cover;
     border: 4px solid white;
@@ -483,7 +485,7 @@ transform: translateX(-40px);
         display: block;
         padding: 7px;
         border-radius: 5px;
-        background-color: var(--prColor);
+        /* background-color: var(--prColor); */
     }
     .mynavbar > .links{
         display: none;
