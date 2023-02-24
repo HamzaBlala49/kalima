@@ -378,7 +378,7 @@ transform: translateX(-40px);
 }
 .body-card p{
     font-weight: 300;
-    color: var(--prColor);
+    color:#195c52af;
     margin-bottom: 10px;
 }
 .body-card .midea ul{
@@ -457,7 +457,7 @@ transform: translateX(-40px);
     font-size: 35px;
 }
 .concat .midea ul li{
-    border: 1px solid var(--thColor);
+    border: 1px solid var(--prColor);
     padding: 10px;
     display: flex;
     justify-content: center;
@@ -476,7 +476,7 @@ transform: translateX(-40px);
     
 }
 .concat .midea ul li a{
-    color: var(--thColor);
+    color: var(--prColor);
 }
 /* end concat Us */
 
@@ -494,9 +494,9 @@ transform: translateX(-40px);
     .mynavbar > .links{
         display: none;
     }
-    .mynavbar .logo img{
-        height: 60px;
-        width: 70px;
+    .mynavbar .logo img {
+        height: 52px;
+        width: 67px;
     }
     .header-body img{
         width: 240px;
