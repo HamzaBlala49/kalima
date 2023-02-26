@@ -8,6 +8,7 @@ let closeIcon =document.querySelector('.close-icon')
 let sideBar = document.querySelector('.sidebar')
 let social =document.querySelector('.social')
 let copy =document.querySelector('.copy')
+let modeBtn =document.querySelector('.mode')
 
 
 
@@ -59,3 +60,19 @@ linkSideBar.forEach(el =>{
 let date = new Date()
 copy.innerHTML = date.getFullYear()
 // end copy
+
+
+// start mode
+
+modeBtn.addEventListener('click',()=>{
+    if(!modeBtn.classList.contains('light')){
+        modeBtn.classList.add("light")
+        document.body.classList.add("dark")
+    }else{
+        modeBtn.classList.remove('light')
+        document.body.classList.remove("dark")
+        
+    }
+})
+
+// end mode
